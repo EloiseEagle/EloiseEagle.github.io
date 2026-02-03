@@ -1,0 +1,9 @@
+# Site settings
+title: Eloise Eagle Portfolio
+author:
+  name: Eloise Eagle
+  email: eloise.eaglel@gmail.com
+description: "Portfolio for Eloise Eagle"
+
+# Build settings
+theme: jekyll-theme-minimal
