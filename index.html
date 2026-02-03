@@ -266,13 +266,13 @@
             transform: translate(-50%, -50%) scale(1.2);
         }
 
-        .project-video iframe {
+        .project-video video {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            border: none;
+            object-fit: cover;
         }
 
         .project-info {
@@ -542,7 +542,9 @@
             <div class="projects-list">
                 <div class="project-item">
                     <div class="project-video">
-                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Unreal Engine Development Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <video controls>
+                            <source src="videos/castle-run.mp4" title="Unreal Engine Development Project" type = "video/mp4">
+                        </video>
                     </div>
                     <div class="project-info">
                         <h3>Unreal Engine Development Project - "Castle Run"</h3>
