@@ -315,6 +315,22 @@
             transition: transform 0.3s, box-shadow 0.3s;
         }
 
+        .project-info p a {
+            display: inline;
+            background: none;
+            color: var(--primary-color);
+            padding: 0;
+            border-radius: 0;
+            text-decoration: underline;
+            font-weight: normal;
+        }
+
+        .project-info p a:hover {
+            color: var(--secondary-color);
+            transform: none;
+            box-shadow: none;
+        }
+
         .project-info a:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
@@ -546,7 +562,7 @@
             <div class="projects-list">
                 <div class="project-item">
                     <div class="project-video">
-                        <iframe src="https://www.youtube.com/embed/qpUZlUzNvTQ?si=MTttCSXcKwqOWg7M" title="Castle Run Demo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/qpUZlUzNvTQ" title="Castle Run Demo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                     <div class="project-info">
                         <h3>Unreal Engine Development Project - "Castle Run"</h3>
